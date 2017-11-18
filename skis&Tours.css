@@ -1,0 +1,164 @@
+#page1 {
+	height: 800px;
+	width: 100%;
+}
+#page2 {
+	height: 800px;
+	width: 100%;
+	
+}
+#page3 {
+	height: 800px;
+	width: 100%;
+}
+
+#page4 {
+	height: 800px;
+	width: 100%;
+
+}
+#page5 {
+	background-color: #424242;
+	height: 930px;
+	width: 100%;
+}
+.backgroundImage {
+width: 100%;
+height:800px;
+
+}
+
+#navLinks {
+
+font-size: 0.9rem;
+color: white;
+padding: 0.5rem 1.5rem;	
+}
+
+#navLinks:hover {
+	color:black;
+}
+
+
+#logo {
+	width: 190px;
+	height: 143px;
+	margin-right: 25px;
+	margin-left: 25px;
+	position: absolute;
+	top:112px;
+	left: 44.5%;
+}
+
+.bluryBackground {
+	width: 100%;
+	height: 800px;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	}
+
+
+.content {
+	
+	position: relative;
+	top: -70%;
+	left: 20%;
+	color: black;
+	width: 60%;
+	height: 35%;
+	
+}
+
+.content h1 {
+	border-bottom: black solid 4px; 
+	text-align: center;
+	margin-right: 10px;
+	padding-bottom: 10px;
+}
+.content h5 {
+	font-size: 20px;
+	margin-top: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	
+}
+
+#rates {
+	position: relative;
+	top: -70%;
+}
+
+#rates h1 {
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	text-decoration: underline;
+	color: #252323;
+}
+
+#rates tr {
+	font-size: 24px;
+	margin-top: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	/*font-weight: bold;*/
+	border-top-color: #330000;
+	/*color:#834C24 ;*/
+	color: white;
+	background-color: #424242;
+}
+
+#rates tr:hover {
+	background-color: #003366; 
+	color: white;
+}
+#mapHatboro {
+	width: 100%;
+	height: 200px;
+	border: solid #f7584c 4px;
+	
+}
+#mapFlemington {
+	width: 100%;
+	height: 200px;
+	border: solid #f7584c 4px;
+	
+}
+
+#stores {
+	position: relative;
+	top: -688px;
+	background-color: #ffffffb3;
+	width: 80%;
+	left: 10%;
+}
+
+#maps {
+	position: relative;
+	top: -20px;
+}
+
+label {
+	color: skyblue;
+}
+
+.contactUs {
+	width: 60%;
+	height: 80%;
+	position: relative;
+	top: 10%;
+	left: 10%;
+}
+
+.facebook {
+	width: 55%;
+	height: 55%;
+	position: relative;
+	left: 110%;
+	top:-57%;
+	/*border:solid white 2px;*/
+	text-align: center;
+	/*background-color: white;*/
+}
+
+
