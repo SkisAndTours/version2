@@ -162,3 +162,12 @@ label {
 }
 
 
+#upButton {
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+	z-index: 99;
+	
+	height: 80px;
+	width: 80px;
+}

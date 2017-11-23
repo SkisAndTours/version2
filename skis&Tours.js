@@ -15,13 +15,14 @@ function myMap() {
 	marker.setMap(map);
 
 
-      }
+      };
 
 
 
  $(document).ready(function(){
+  //console.log(window.location);
   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a").on('click', function(event) {
+  $(".navbar a, a").on('click', function(event) {
 
   // Make sure this.hash has a value before overriding default behavior
   if (this.hash !== "") {
@@ -40,9 +41,94 @@ function myMap() {
 
       // Add hash (#) to URL when done scrolling (default click behavior)
       window.location.hash = hash;
-      });
-    } // End if 
+
+     }); 
+   
+    }; // End if 
+    });
+
+
+  $("#page1").on("click", function(){
+
+    var nhash  = "#page2";
+
+     $('html, body').animate({
+      scrollTop: $(nhash).offset().top
+    }, 1200)
+
+
   });
+
+
+  $("#page2").on("click", function(){
+
+    var nhash  = "#page3";
+
+     $('html, body').animate({
+      scrollTop: $(nhash).offset().top
+    }, 1200)
+
+
+  });
+
+  $("#page3").on("click", function(){
+
+    var nhash  = "#page4";
+
+     $('html, body').animate({
+      scrollTop: $(nhash).offset().top
+    }, 1200)
+
+
+  });
+
+  $("#page4").on("click", function(){
+
+    var nhash  = "#page5";
+
+     $('html, body').animate({
+      scrollTop: $(nhash).offset().top
+    }, 1200)
+
+
+  });
+
+if (window.location.hash != "#page1") {
+  $("#upButton").css("display","none");
+}
+
+  // key up functions
+
   
 
-});
+
+
+    });
+  
+
+
+// $("#page1").on("click", function(){
+ 
+// });
+//   if (this.hash !== "") {
+
+//     // Prevent default anchor click behavior
+//     event.preventDefault();
+
+//     // Store hash
+//     var hash = this.hash;
+
+//     // Using jQuery's animate() method to add smooth page scroll
+//     // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+//     $('html, body').animate({
+//       scrollTop: $(hash).offset().top
+//     }, 1200, function(){
+
+//       // Add hash (#) to URL when done scrolling (default click behavior)
+//       window.location.hash = hash;
+//       });
+//     } // End if 
+  
+ 
+// });
+
