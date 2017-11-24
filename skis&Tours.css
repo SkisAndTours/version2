@@ -252,8 +252,18 @@ large screens
 	}
 	.nav{
 		height: 100px;
+		
+	}
+	#phoneLi{
+		left: 2%;
+	}
+
+	#navLinks {
 		font-size: 1.5rem;
 	}
+
+
+
 
 
 }
