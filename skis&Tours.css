@@ -186,7 +186,7 @@ large screens
 
 /* Large devices*/
 
-@media (min-width: @screen-lg-min) {
+@media (min-width: 1850px) {
 
 	#phone {
 		left: 1100px; 
