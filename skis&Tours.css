@@ -175,6 +175,8 @@ label {
 #phone {
 	width: 30px;
 	height: 30px;
+	position: relative;
+	left: 730px;
 }
 
 
