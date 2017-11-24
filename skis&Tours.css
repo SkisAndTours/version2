@@ -143,19 +143,19 @@ label {
 }
 
 .contactUs {
-	width: 60%;
+	width: 100%;
 	height: 70%;
 	position: relative;
-	top: 15%;
+	top: 25%;
 	left: 10%;
 }
 
 .facebook {
-	width: 55%;
-	height: 55%;
+	width: 100%;
+	height: 35%;
 	position: relative;
-	left: 110%;
-	top:-57%;
+	
+	top:10%;
 	/*border:solid white 2px;*/
 	text-align: center;
 	/*background-color: white;*/
@@ -181,6 +181,12 @@ label {
 #phoneLi {
 	position: relative;
 	left: 98%;
+}
+
+#contactInfo {
+	position: relative;
+	top: 10%;
+
 }
 
 
