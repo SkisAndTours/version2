@@ -175,6 +175,10 @@ label {
 #phone {
 	width: 30px;
 	height: 30px;
+	
+}
+
+#phoneLi {
 	position: relative;
 	left: 730px;
 }
@@ -190,7 +194,7 @@ large screens
 
 @media (min-width: 1850px) {
 
-	#phone {
+	#phoneLi {
 		left: 1100px; 
 
 	}
@@ -201,6 +205,10 @@ large screens
 
 	#stores {
 		top: -800px;
+	}
+
+	.contactUs {
+		top: 15%;
 	}
 
 }
