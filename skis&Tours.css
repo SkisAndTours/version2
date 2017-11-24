@@ -85,13 +85,13 @@ padding: 0.5rem 1.5rem;
 
 #rates {
 	position: relative;
-	top: -70%;
+	top: -87%;
 }
 
 #rates h1 {
 	text-align: center;
 	padding-bottom: 10px;
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 	text-decoration: underline;
 	color: #252323;
 }
@@ -170,4 +170,9 @@ label {
 	
 	height: 80px;
 	width: 80px;
+}
+
+#phone {
+	width: 30px;
+	height: 30px;
 }
