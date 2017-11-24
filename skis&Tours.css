@@ -215,7 +215,7 @@ large screens
 }
 
 
-@media (min-width: 768px)  {
+@media (min-width: 768px) and (max-height: 1024px){
 
 #page1, #page2, #page3, #page4, #page5, .backgroundImage, .bluryBackground {
 		height: 1024px;
@@ -250,10 +250,23 @@ large screens
 	#page1, #page2, #page3, #page4, #page5, .backgroundImage, .bluryBackground {
 		height: 667px;
 	}
+	.nav{
+		height: 100px;
+		font-size: 1.5rem;
+	}
+
+
 }
 
-@media(min-width: 667) and (max-height: 375px){
+@media(min-width: 667px) and (max-height: 375px){
 	#page1, #page2, #page3, #page4, #page5, .backgroundImage, .bluryBackground {
 		height: 375px;
 	}
+
 }
+
+
+@media(min-width: 1280px) and (max-height: 950px){
+	#page1, #page2, #page3, #page4, #page5, .backgroundImage, .bluryBackground {
+		height: 950px;
+	}
