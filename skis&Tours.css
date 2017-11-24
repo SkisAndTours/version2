@@ -180,7 +180,7 @@ label {
 
 #phoneLi {
 	position: relative;
-	left: 730px;
+	left: 98%;
 }
 
 
@@ -195,7 +195,8 @@ large screens
 @media (min-width: 1850px) {
 
 	#phoneLi {
-		left: 1100px; 
+		/*left: 1100px; */
+
 
 	}
 
@@ -211,4 +212,48 @@ large screens
 		top: 15%;
 	}
 
+}
+
+
+@media (min-width: 768px)  {
+
+#page1, #page2, #page3, #page4, #page5, .backgroundImage, .bluryBackground {
+		height: 1024px;
+	}
+
+	#stores {
+		top: -800px;
+	}
+
+	.contactUs {
+		top: 15%;
+	}
+
+
+}
+
+@media(min-width: 1024px) and (max-height: 768px){
+	#page1, #page2, #page3, #page4, #page5, .backgroundImage, .bluryBackground {
+		height: 768px;
+	}
+
+	#stores {
+		top: -800px;
+	}
+
+	.contactUs {
+		top: 15%;
+	}
+}
+
+@media(min-width: 375px) {
+	#page1, #page2, #page3, #page4, #page5, .backgroundImage, .bluryBackground {
+		height: 667px;
+	}
+}
+
+@media(min-width: 667) and (max-height: 375px){
+	#page1, #page2, #page3, #page4, #page5, .backgroundImage, .bluryBackground {
+		height: 375px;
+	}
 }
