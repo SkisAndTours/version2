@@ -176,3 +176,29 @@ label {
 	width: 30px;
 	height: 30px;
 }
+
+
+/*
+large screens
+*/
+/*phone needs to go more left - phone left value- increase 1100px*/
+/*image needs to fit the window - height of page - increase 973px/ also backgroudimage & blurryimage 973px/ #stores top - -800px*/
+
+/* Large devices*/
+
+@media (min-width: @screen-lg-min) {
+
+	#phone {
+		left: 1100px; 
+
+	}
+
+	#page1, #page2, #page3, #page4, #page5, .backgroundImage, .bluryBackground {
+		height: 973px;
+	}
+
+	#stores {
+		top: -800px;
+	}
+
+}
