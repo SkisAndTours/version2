@@ -127,7 +127,7 @@ padding: 0.5rem 1.5rem;
 
 #stores {
 	position: relative;
-	top: -688px;
+	top: -89%;
 	background-color: #ffffffb3;
 	width: 80%;
 	left: 10%;
@@ -146,7 +146,7 @@ label {
 	width: 60%;
 	height: 70%;
 	position: relative;
-	top: 10%;
+	top: 15%;
 	left: 10%;
 }
 
@@ -215,7 +215,7 @@ large screens
 }
 
 
-@media (min-width: 375px) and (max-width: 768px){
+/*@media (min-width: 375px) and (max-width: 768px){
 
 #page1, #page2, #page3, #page4, #page5, .backgroundImage, .bluryBackground {
 		height: 1307px;
@@ -239,7 +239,7 @@ large screens
 
 
 }
-/*
+*//*
 @media(min-width: 1024px) and (max-height: 768px){
 	#page1, #page2, #page3, #page4, #page5, .backgroundImage, .bluryBackground {
 		height: 768px;
@@ -275,16 +275,16 @@ large screens
 
 
 }*/
-
-@media(max-width: 375px) {
+/*
+@media(max-width: 600px) {
 	#page1, #page2, #page3, #page4, #page5, .backgroundImage, .bluryBackground {
-		height: 375px;
+		height: 100%;
 	}
 
 }
-
-
+*/
+/*
 @media(min-width: 1280px) and (max-height: 950px){
 	#page1, #page2, #page3, #page4, #page5, .backgroundImage, .bluryBackground {
 		height: 950px;
-	}
+	}*/
