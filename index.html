@@ -161,35 +161,35 @@
 				<div class="col-md-1"></div>
 				<div class="col-md-10">
 					
-					<form>
+					<form action="mailto:contact@skisandtours.com" method="post" enctype="text/plain">
 						<div class="form-group">
     <div class="row">
 
     <div class="col-md-4">
     <label for="fName" >First Name</label>
-    <input type="text" id="fName" class="form-control" placeholder="First Name">
+    <input type="text" id="fName" class="form-control" placeholder="First Name" name="First Name">
     </div>
     <div class="col-md-4">
     <label for="lName">Last Name</label>
-    <input type="text" id="lName" class="form-control"  placeholder="Last Name">
+    <input type="text" id="lName" class="form-control"  placeholder="Last Name" name="Last Name">
     </div>
     <div class="col-md-4">
     <label for="phone">Phone</label>
-    <input id="phone" type="tel" class="form-control"  placeholder="Enter Contact Number" style="width: 100%; height: 38px;">
+    <input id="phone" type="tel" class="form-control"  placeholder="Enter Contact Number" style="width: 100%; height: 38px;" name="Phone">
     </div>
 	</div>
 	<div>
     <label >Email address</label>
-    <input for="email" type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Enter email" id="email">
+    <input for="email" type="email" class="form-control"  aria-describedby="emailHelp" placeholder="Enter email" id="email" name="Email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-    <label for="subject" >Subject</label>
-    <input type="text" class="form-control" id="subject"  placeholder="Order#, e.t.c.,">
+    <!-- <label for="subject" >Subject</label>
+    <input type="text" class="form-control" id="subject"  placeholder="Order#, e.t.c.,"> -->
     <label for="message">Message:</label>
-      <textarea class="form-control" rows="5" id="message" placeholder="Please enter your message here."></textarea>
+      <textarea name="Message" class="form-control" rows="8" id="message" placeholder="Please enter your message here."></textarea>
       <div class="row" style="margin-top: 10px;">
       	<div class="col-md-10"></div>
       	<div class="col-md-2">
-      		<button type="button" class="btn btn-primary btn-lg">Submit</button>
+      		<button type="submit" class="btn btn-primary btn-lg" value="Send">Send</button>
       	</div>
       </div>
 
